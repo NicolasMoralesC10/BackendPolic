@@ -8,7 +8,7 @@ const mysql = require("mysql2"); // PRINCIPIO DE INMUTABILIDAD
 // Create the connection to database
 const cnx = mysql.createConnection({
   host: process.env.DB_HOST,
-  user: process.env.DB_USER_NAME,
+  user: process.env.DB_USERNAME,
   password: process.env.DB_PASSWORD,
   database: process.env.DB_NAME
 });
